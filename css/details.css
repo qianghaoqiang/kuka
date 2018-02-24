@@ -1,0 +1,331 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+} 
+body{
+	font-family: "苹方","San Francisco "
+}
+.top{
+	width: 100%;
+	height: 0.88rem;
+	position: fixed;
+	background: -webkit-linear-gradient(left,#ff9445,#ffcc45);
+	position: relative;
+	/* left: 0;
+	top: 0; */
+	z-index: 8;
+}
+.top a{
+	width: 0.22rem;
+	height: 0.33rem;
+	left: 0.24rem;
+	top: -0.56rem;
+	position: absolute;
+	display: block;
+}
+.top .class9{
+	
+}
+.top .font1{
+	width: 100%;
+	color: #fff;
+	font-size: 0.35rem;
+	text-align: center;
+	top: 0.18rem;
+	bottom: 0.18rem;
+	position: absolute;
+}
+.top .class0{
+	/* width: 0.27rem;
+	height: 0.43rem; */
+	left: 0.24rem;
+	top:1.38rem;
+	position: absolute;
+}
+.lie{
+	width: 100%;
+	height: 2.22rem;
+	background: white;
+/* 	border-radius: 0.1rem; */
+	/* margin-left: 0.24rem;
+	margin-top: 0.3rem; */
+	box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.1);
+	position: relative;
+	overflow: hidden;
+}
+.lie .left{
+	width: 2.93rem;
+	height: 2.81rem;
+/* 	background: orange; */
+	position: absolute;
+}
+.lie .right{
+	width: 4.57rem;
+	height: 2.81rem;
+/* 	background: blue; */
+	position: absolute;
+	right: 0;
+}
+.lie .left img{
+	margin-left: 0.56rem;
+	margin-top: 0.34rem;
+}
+.lie .right .list1{
+	font-size: 0.36rem;
+	color: #393939;
+	margin-top: 0.42rem;
+	margin-left: -0.98rem;
+}
+.lie .right .list2{
+	font-size: 0.26rem;
+	color: #8f8f8f;
+	/* margin-top: 0.1rem; */
+	margin-left: -0.98rem;
+}
+.lie .right .list3{
+	font-size: 0.20rem;
+	color: #8f8f8f;
+	/* margin-top: 0.1rem; */
+	margin-left: -0.98rem;
+}
+.lie .right .list4{
+	width: 1.68rem;
+	height: 0.44rem;
+	background: #ff9845;
+	border-radius: 0.1rem;
+	/* margin-top: 0.27rem; */
+	float: left;
+	margin-left: -0.98rem;
+}
+.lie .right .list4 .zi{
+	font-size: 0.24rem;
+	color: #fff;
+	margin-top: 0.04rem;
+	margin-left: 0.34rem;
+}
+.lie .class1{
+	/* width: 0.27rem;
+	height: 0.43rem; */
+	left: 3.0rem;
+	top: 0.9rem;
+	position: absolute;
+}
+.xiang{
+	width: 100%;
+	height: 0.92rem;
+/* 	background: orange; */
+	position: relative;
+}
+.xiang img{
+	width: 0.59rem;
+	height: 0.53rem;
+	position: absolute;
+	left: 0.24rem;
+	top: 0.29rem;
+}
+.xiang .zi{
+	font-size: 0.28rem;
+	color: #393939;
+	position: absolute;
+	left: 0.9rem;
+	top: 0.23rem;
+}
+.xiang .ying{
+	font-size: 0.28rem;
+	color: #fd652b;
+	position: absolute;
+	left: 0.9rem;
+	top: 0.5rem;
+}
+/* .xiang .yuan{ */
+	width: 0.28rem;
+	height: 0.06rem;
+	position: absolute;
+	top: 0.38rem;
+	left: 0.84rem;
+/* 	background: red; */
+}
+.xiang .yuan .list{
+	width: 0.06rem;
+	height: 0.06rem;
+	border-radius: 0.08rem;
+	background: #fd392b;
+	float: left;
+	margin-right: 0.03rem;
+}
+.juxing{
+	width: 100%;
+	height: 0.2rem;
+	background: #f7f7f7;
+}
+.neirong{
+	width: 100%;
+	height: 2.72rem;
+/* 	background: red; */
+	position: relative;
+}
+.neirong .jianjie{
+	font-size: 0.28rem;
+	color: #393939;
+	position: absolute;
+	left: 0.24rem;
+	top: 0.24rem;
+}
+.neirong .zi{
+	font-size: 0.22rem;
+	color: #a6a6a6;
+	position: absolute;
+	left: 0.24rem;
+	top: 0.7rem;
+	right: 0.24rem;
+}
+.juxing1{
+	width: 100%;
+	height: 0.2rem;
+	background: #f7f7f7;
+}
+.yeting{
+	width: 100%;
+	height: 2.78rem;
+/* 	background: red; */
+	position: relative;
+}
+.yeting img{
+	position: absolute;
+	left: 0.24rem;
+	top: 0.26rem;
+}
+.yeting .ye{
+	font-size: 0.28rem;
+	color: #393939;
+	position: absolute;
+	left: 1.04rem;
+	top: 0.3rem;
+}
+.yeting .guanzhu{
+	font-size: 0.2rem;
+	color: #a8a8a8;
+	position: absolute;
+	left: 1.04rem;
+	top: 0.7rem;
+}
+.yeting .nei{
+	font-size: 0.22rem;
+	color: #a6a6a6;
+	position: absolute;
+	left: 0.24rem;
+	top: 1.2rem;
+	right: 0.24rem;
+}
+.juxing3{
+	width: 100%;
+	height: 0.2rem;
+	background: #f7f7f7;
+}	
+.zhuanji{
+	width: 100%;
+	height: 2.45rem;
+/* 	background: orange; */
+	position: relative;
+}
+.zhuanji .zhuan{
+	position: absolute;
+	font-size: 0.28rem;
+	left: 0.24rem;
+	top: 0.24rem;
+}
+.zhuanji .list1{
+	width: 1.69rem;
+	height: 0.51rem;
+	background: #ffcd45;
+	border-radius: 0.1rem;
+	position: absolute;
+	left: 0.24rem;
+	top: 0.85rem;
+}
+.zhuanji .list1 .zi{
+	font-size: 0.26rem;
+	color: white;
+	margin-left: 0.3rem;
+	margin-top: 0.08rem;
+}
+.zhuanji .list2{
+	width: 1.69rem;
+	height: 0.51rem;
+	background: #ffcd45;
+	border-radius: 0.1rem;
+	position: absolute;
+	left: 2.92rem;
+	top: 0.78rem;
+}
+.zhuanji .list2 .zi{
+	font-size: 0.26rem;
+	color: white;
+	margin-left: 0.3rem;
+	margin-top: 0.08rem;
+}
+.zhuanji .list3{
+	width: 1.69rem;
+	height: 0.51rem;
+	background: #ffcd45;
+	border-radius: 0.1rem;
+	position: absolute;
+	left: 5.58rem;
+	top: 0.78rem;
+}
+.zhuanji .list3 .zi{
+	font-size: 0.26rem;
+	color: white;
+	margin-left: 0.3rem;
+	margin-top: 0.08rem;
+}
+.zhuanji .list4{
+	width: 1.69rem;
+	height: 0.51rem;
+	background: #ffcd45;
+	border-radius: 0.1rem;
+	position: absolute;
+	left: 0.24rem;
+	top: 1.56rem;
+}
+.zhuanji .list4 .zi{
+	font-size: 0.26rem;
+	color: white;
+	margin-left: 0.3rem;
+	margin-top: 0.08rem;
+}
+.zhuanji .list5{
+	width: 1.69rem;
+	height: 0.51rem;
+	background: #ffcd45;
+	border-radius: 0.1rem;
+	position: absolute;
+	left: 2.92rem;
+	top: 1.56rem;
+}
+.zhuanji .list5 .zi{
+	font-size: 0.26rem;
+	color: white;
+	margin-left: 0.3rem;
+	margin-top: 0.08rem;
+}
+.zhuanji .list6{
+	width: 1.69rem;
+	height: 0.51rem;
+	background: #ffcd45;
+	border-radius: 0.1rem;
+	position: absolute;
+	left: 5.58rem;
+	top: 1.56rem;
+}
+.zhuanji .list6 .zi{
+	font-size: 0.26rem;
+	color: white;
+	margin-left: 0.3rem;
+	margin-top: 0.08rem;
+}
+

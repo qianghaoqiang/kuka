@@ -1,0 +1,454 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+} 
+body{
+	font-family: "苹方","San Francisco "
+}
+.top{
+	width: 100%;
+	height: 1.77rem;
+	position: fixed;
+	background: #ffca43;
+	left: 0;
+	top: 0;
+	z-index: 8;
+}
+.top .font1{
+	width: 100%;
+	color: #fff;
+	font-size: 0.68rem;
+	margin-left: 0.24rem;
+	margin-top: 0.18rem;
+	margin-bottom: 0.18rem;
+}
+.top .searbox{
+	width: 7.02rem;
+	height: 0.58rem;
+	background: white;
+	font-size: 0.22rem;
+	border-radius: 0.29rem;
+	position: fixed;
+	margin-left: 0.21rem;
+	margin-top:-0.2rem;
+	border: none;
+}
+::-webkit-input-placeholder{
+	color: #ffbe43;
+}
+.top img{
+	position: fixed;
+	margin-left: -3.20rem;
+	margin-top: -1.64rem;
+}
+.banner{
+	width: 100%;
+	height: 3.51rem;
+	margin-top: 1.66rem;
+	position: relative;
+}
+.banner img{
+	width: 100%;
+	height: 3.51rem;
+}
+/* .banner .lunbo{ */
+	width: 0.80rem;
+	height: 0.09rem;
+	/* background: red; */
+	position: absolute;
+	top: 3.77rem;
+	left: 3.35rem;
+}
+/* .banner .lunbo .child{ */
+	width: 0.09rem;
+	height: 0.09rem;
+	background: red;
+	float: left;
+	border-radius: 0.045rem;
+	margin-right: 0.09rem;
+}
+/* .banner .lunbo .child:nth-child(3){ */
+	width: 0.16rem;
+	height: 0.09rem;
+}
+.gongneng{
+	width: 100%;
+	height: 2.63rem;
+	/* background: orange; */
+}
+.gongneng .list{
+	width: 1.77rem;
+	height: 1.71rem;
+	/* background: white; */
+	float: left;
+	margin-top: 0.47rem;
+}
+.gongneng .list img{
+	width: 1.16rem;
+	height: 1.16rem;
+}
+.gongneng .list:nth-child(1){
+	margin-left: 0.21rem;
+}
+.gongneng .list:nth-child(4){
+	margin-right: 0.21rem;
+}
+.gongneng .list img{
+	margin: 0 0.3rem 0;
+}
+.gongneng .list .bu{
+	font-size: 0.26rem;
+	color: #1e1e1e;
+	text-align: center;
+}
+.juxing{
+	width: 100%;
+	height: 0.19rem;
+	background: #f7f7f7;
+}
+.caini{
+	width: 100%;
+	height: 8.32rem;
+	/* margin-top: 2.58rem; */
+/* 	background: orange; */
+}
+.caini .biaoti{
+	width: 100%;
+	height: 1.42rem;
+	background: white;
+	position: relative;
+}
+.caini .biaoti img{
+	width: 0.4rem;
+	height: 0.38rem;
+	position: absolute;
+	/* margin-top: -0.29rem;
+	margin-left: 3.55rem; */
+	top: 0.18rem;
+	left: 3.56rem;
+}
+.caini .biaoti .list1{
+	width: 1.84rem;
+	height: 0.01rem;
+	background: #ffd543;
+	position: absolute;
+	left: 0.8rem;
+	top: 0.76rem;
+}
+.caini .biaoti .list5{
+	width: 1.84rem;
+	height: 0.01rem;
+	background: #ffd543;
+	position: absolute;
+	right: 0.8rem;
+	top: 0.76rem;
+}
+.caini .biaoti .list2{
+	width: 0.15rem;
+	height: 0.03rem;
+	background: #ffd543;
+	position: absolute;
+	left: 2.48rem;
+	top: 0.75rem;
+}
+.caini .biaoti .list6{
+	width: 0.15rem;
+	height: 0.03rem;
+	background: #ffd543;
+	position: absolute;
+	right: 2.48rem;
+	top: 0.75rem;
+}
+.caini .biaoti .list3{
+	font-size: 0.26rem;
+	position: absolute;
+	left: 2.78rem;
+	top: 0.58rem;
+	color: #ffd21d;
+}
+.caini .biaoti .list4{
+	font-size: 0.26rem;
+	position: absolute;
+	left: 3.22rem;
+	top: 1rem;
+}
+.caini .kapian{
+	width: 7.03rem;
+	height: 2rem;
+	background: white;
+	border-radius: 0.1rem;
+	margin-left: 0.22rem;
+	margin-top: 0.2rem;
+	box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.1);
+	position: relative;
+	overflow: hidden;
+}
+.caini .kapian .left{
+	width: 2.21rem;
+	height: 2rem;
+	top: 0.2rem;
+	left: 0.2rem;
+	position: absolute;
+}
+.caini .kapian .left img{
+	width: 1.77rem;
+	height: 1.61rem;
+}
+
+
+.caini .kapian .right{
+	width: 4.79rem;
+	height: 2rem;
+	position: absolute;
+	right: 0;
+	overflow: hidden;
+}
+.caini .kapian .right .list1{
+	font-size: 0.26rem;
+	margin-top: 0.45rem;
+	/* margin-left:-2.1rem; */
+	color: #1e1e1e;
+}
+
+.caini .kapian .right .list2{
+	font-size: 0.22rem;
+	margin-top: 0.16rem;
+	/* margin-left: -2.1rem; */
+	color: #a8a8a8;
+}
+.caini .kapian .right .list3{
+	width: 1.28rem;
+	height: 0.19rem;
+	float: left;
+	margin-top: 0.26rem;
+}
+.caini .kapian .right .list3 img{
+	width: 0.16rem;
+	height: 0.19rem;
+	float: left;
+	margin-top: 0.03rem;
+	margin-right: 0.12rem;
+}
+.caini .kapian .right .list3 .zi{
+	font-size: 0.2rem;
+	color: #ffc766;
+	float: left;
+}
+.caini .kapian .right .list4{
+	width: 1.28rem;
+	height: 0.19rem;
+	float: left;
+	margin-top: 0.26rem;
+}
+.caini .kapian .right .list4 img{
+	width: 0.19rem;
+	height: 0.19rem;
+	float: left;
+	margin-top: 0.05rem;
+	margin-right: 0.12rem;
+}
+.caini .kapian .right .list4 .zi{
+	font-size: 0.2rem;
+	color:#ffc766;
+	float: left;
+}
+
+.caini .kapian .right .list5{
+	width: 1.28rem;
+	height: 0.19rem;
+	float: left;
+	margin-top: 0.26rem;
+}
+.caini .kapian .right .list5 img{
+	width: 0.19rem;
+	height: 0.19rem;
+	float: left;
+	margin-top: 0.05rem;
+	margin-right: 0.12rem;
+}
+.caini .kapian .right .list5 .zi{
+	font-size: 0.2rem;
+	color: #ffc766;
+	float: left;
+}
+.juxing{
+	width: 100%;
+	height: 0.19rem;
+	background: #f7f7f7;
+	margin-top: 2.5rem;
+}
+.jingpin{
+	width: 100%;
+	height: 5.20rem;
+/* 	background: orange; */
+    /* overflow: hidden; */
+    margin-bottom: 1rem;
+}
+.jingpin .biaoti{
+	width: 100%;
+	height: 1.42rem;
+	background: white;
+	position: relative;
+	margin-bottom: 0.27rem;
+}
+.jingpin .biaoti img{
+	width: 0.4rem;
+	/* height: 0.38rem; */
+	position: absolute;
+	/* margin-top: -0.29rem;
+	margin-left: 3.55rem; */
+	top: 0.18rem;
+	left: 3.50rem;
+}
+.jingpin .biaoti .list1{
+	width: 1.84rem;
+	height: 0.01rem;
+	background: #ffd543;
+	position: absolute;
+	left: 0.4rem;
+	top: 0.86rem;
+}
+.jingpin .biaoti .list5{
+	width: 1.84rem;
+	height: 0.01rem;
+	background: #ffd543;
+	position: absolute;
+	right: 0.4rem;
+	top: 0.86rem;
+}
+.jingpin .biaoti .list2{
+	width: 0.15rem;
+	height: 0.03rem;
+	background: #ffd543;
+	position: absolute;
+	left: 2.08rem;
+	top: 0.85rem;
+}
+.jingpin .biaoti .list6{
+	width: 0.15rem;
+	height: 0.03rem;
+	background: #ffd543;
+	position: absolute;
+	right: 2.08rem;
+	top: 0.85rem;
+}
+.jingpin .biaoti .list3{
+	font-size: 0.26rem;
+	position: absolute;
+	left: 2.65rem;
+	top: 0.68rem;
+	color: #ffd21d;
+}
+.jingpin .biaoti .list4{
+	font-size: 0.26rem;
+	position: absolute;
+	left: 3.22rem;
+	top:1rem;
+}
+.jingpin .gongge{
+	width: 2.35rem;
+	height: 2.90rem;
+/* 	background: white; */
+	float: left;
+	margin-left: 0.15rem;
+	position: relative;
+}
+.jingpin .gongge img{
+	width: 2.12rem;
+	height: 1.68rem;
+	left: 0.13rem;
+	position: absolute;
+	z-index: 8;
+}
+.jingpin .gongge .list{
+	width: 2.34rem;
+	height: 3.0rem;
+	background: white;
+	position: absolute;
+	top: 0.26rem;
+	box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.1);
+}
+.jingpin .gongge .list .biao{
+	font-size: 0.26rem;
+	color: #1e1e1e;
+	position: absolute;
+	left: 0.16rem;
+	top: 1.48rem;
+}
+.jingpin .gongge .list img{
+	width: 0.39rem;
+	height: 0.17rem;
+	position: absolute;
+	top: 1.9rem;
+	left: 0.16rem;
+}
+.jingpin .gongge .list .biao1{
+	font-size: 0.22rem;
+	color: #ffba43;
+	position: absolute;
+	left: 0.65rem;
+	top: 1.84rem;
+}
+.jingpin .gongge .list .k{
+	font-size: 0.24rem;
+	color: #8f8f8f;
+	position: absolute;
+	left: 0.16rem;
+	top:2.18rem;
+	/* text-align: center; */
+}
+.juxing1{
+	width: 100%;
+	height: 0.19rem;
+	background: #f7f7f7;
+/* 	margin-top: 2.5rem; */
+}
+.dibu{
+	width: 100%;
+	height: 0.98rem;
+	background: #f7f7f7;
+	margin-top: 0.32rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 8;
+}
+.dibu .list{
+	width: 1.875rem;
+	height: 0.98rem;
+/* 	background: orange; */
+	float: left;
+	position: relative;
+}
+.dibu .list img{
+	width: 0.49rem;
+	height: 0.47rem;
+	left: 0.67rem;
+	top: 0.09rem;
+	position: absolute;
+}
+.dibu .list .zi{
+	font-size: 0.22rem;
+	left: 0.7rem;
+	top: 0.64rem;
+	position: absolute;
+	color: #b2b2b2;
+}
+.dibu .list .zii{
+	font-size: 0.22rem;
+	left: 0.7rem;
+	top: 0.64rem;
+	position: absolute;
+	color: #fe9525;
+}
+.dibu .list .ziz{
+	font-size: 0.22rem;
+	left: 0.6rem;
+	top: 0.64rem;
+	position: absolute;
+	color: #b2b2b2;
+}

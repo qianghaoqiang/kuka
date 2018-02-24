@@ -1,0 +1,151 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+} 
+body{
+	font-family: "苹方","San Francisco "
+}
+.top{
+	width: 100%;
+	height: 12.94rem;6
+	position: relative;
+	background: orange;
+}
+.top .class5{
+	width: 100%;
+	height: 12.94rem;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.top .class1{
+	position: absolute;
+	left: 1.2rem;
+	top: 4.32rem;
+}
+.top .class2{
+	position: absolute;
+	left: 1.2rem;
+	top: 5.32rem;
+}
+.top .class3{
+	position: absolute;
+	left: 1.22rem;
+	top: 6.32rem;
+}
+.top .class4{
+	width: 0.55rem;
+	height: 0.57rem;
+	position: absolute;
+	left: 3.46rem;
+	top: 2.25rem;
+}
+.top .class5{
+	width: 7.50rem;
+	height: 13.34rem;
+	position: absolute;
+	/* left: 6.05rem; */
+	/* top: 5.42rem; */
+}
+.top .class6{
+	position: absolute;
+	left: 6.05rem;
+	top: 6.42rem;
+}
+.top .kuang{
+	width: 0.21rem;
+	height: 0.21rem;
+	border: 0.02rem solid white;
+	position: absolute;
+	left: 1.04rem;
+	top: 6.97rem;
+}
+.top .zi{
+	font-size: 0.34rem;
+	color: white;
+	position: absolute;
+	left: 3.42rem;
+	top: 0.22rem;
+}
+.top img{
+	position: absolute;
+	left: 0.24rem;
+	top: 0.22rem;
+}
+.top .yuan{
+	width: 1.39rem;
+	height: 1.39rem;
+	border-radius: 0.69rem;
+	background: white;
+	position: absolute;
+	left: 3.06rem;
+	top: 1.85rem;
+}
+.top .searbox{
+	width: 5.41rem;
+	height: 0.75rem;
+	background: white;
+	font-size: 0.24rem;
+	border-radius: 0.1rem;
+	position: fixed;
+	margin-left: 1.04rem;
+	margin-top: 4.11rem;
+	border: none;
+}
+.top .searbox1{
+	width: 5.41rem;
+	height: 0.75rem;
+	background: white;
+	font-size: 0.24rem;
+	border-radius: 0.1rem;
+	position: fixed;
+	margin-left: 1.04rem;
+	margin-top: 5.11rem;
+	border: none;
+}
+.top .searbox2{
+	width: 5.41rem;
+	height: 0.75rem;
+	background: white;
+	font-size: 0.24rem;
+	border-radius: 0.1rem;
+	position: fixed;
+	margin-left: 1.04rem;
+	margin-top: 6.11rem;
+	border: none;
+}
+.top .ju{
+	width: 5.43rem;
+	height: 0.77rem;
+	border-radius: 0.39rem;
+	background: #ffc745;
+	position: absolute;
+	left: 1.03rem;
+	top: 8.17rem;
+}
+.top .ju .zi{
+	font-size: 0.28rem;
+	color: white;
+	position: absolute;
+	left: 2.38rem;
+	top: 0.2rem;
+}
+.top .zii{
+	font-size: 0.2rem;
+	color: white;
+	position: absolute;
+	left: 1.39rem;
+	top: 6.97rem;
+}
+.top .ziii{
+	font-size: 0.2rem;
+	color: white;
+	position: absolute;
+	left: 5.6rem;
+	top: 9.02rem;
+}
+
